@@ -1,0 +1,61 @@
+site_name: Anosh Portfolio
+site_url: https://github.com/pages/TelkarAnosh/telkar_anosh_info
+site_description: Welcome Everyone!!!
+
+nav:
+  - Home: index.md
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+    - content.code.copy
+    - content.action.edit
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  markdown_extensions:
+    - admonition
+    - codehilite
+    - footnotes
+    - meta
+    - toc:
+        permalink: true
+    - pymdownx.arithmatex
+    - pymdownx.betterem
+    - pymdownx.caret
+    - pymdownx.critic
+    - pymdownx.details
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tabbed
+    - pymdownx.tasklist
+    - pymdownx.tilde
+  plugins:
+    - search
+    - tags
+    - git-revision-date
+    - glightbox
+
+
